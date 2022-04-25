@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Shinaka.MeaterSharp</PackageId>
+    <Company>Shinaka</Company>
+    <Description>A .Net Library for accessing the Meater Cloud API.</Description>
+    <PackageProjectUrl>https://github.com/shinaka/MeaterSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shinaka/MeaterSharp.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>meater; rest; api; bbq; cooking</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Shinaka</Authors>
+    <Title>MeaterSharp</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
